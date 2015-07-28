@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D664980B1B5F41CE0029BEAD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D664980A1B5F41CE0029BEAD /* main.cpp */; };
+		D66498131B5F41EF0029BEAD /* ImageFileClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D66498111B5F41EF0029BEAD /* ImageFileClass.cpp */; };
+		D6D1A9221B60E220004115E1 /* libjpeg.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D1A91F1B60E220004115E1 /* libjpeg.8.dylib */; };
+		D6D1A9231B60E220004115E1 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D1A9201B60E220004115E1 /* libjpeg.a */; };
+		D6D1A9241B60E220004115E1 /* libjpeg.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D1A9211B60E220004115E1 /* libjpeg.8.dylib */; };
+		D6D1A9271B632B82004115E1 /* HistogramOfImageClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6D1A9251B632B82004115E1 /* HistogramOfImageClass.cpp */; };
+		D6D1A92A1B647E78004115E1 /* DBSCAN_Class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6D1A9281B647E78004115E1 /* DBSCAN_Class.cpp */; };
+		D6D1A92D1B65BA30004115E1 /* LightParamEstimationClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6D1A92B1B65BA30004115E1 /* LightParamEstimationClass.cpp */; };
+		D6D1A9301B672794004115E1 /* LightFallOffEstimationClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6D1A92E1B672794004115E1 /* LightFallOffEstimationClass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,19 @@
 /* Begin PBXFileReference section */
 		D66498071B5F41CE0029BEAD /* LightParamterEstimation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LightParamterEstimation; sourceTree = BUILT_PRODUCTS_DIR; };
 		D664980A1B5F41CE0029BEAD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D66498111B5F41EF0029BEAD /* ImageFileClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageFileClass.cpp; sourceTree = "<group>"; };
+		D66498121B5F41EF0029BEAD /* ImageFileClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFileClass.h; sourceTree = "<group>"; };
+		D6D1A91F1B60E220004115E1 /* libjpeg.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjpeg.8.dylib; path = ../../../../usr/local/Cellar/jpeg/8d/lib/libjpeg.8.dylib; sourceTree = "<group>"; };
+		D6D1A9201B60E220004115E1 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = ../../../../usr/local/Cellar/jpeg/8d/lib/libjpeg.a; sourceTree = "<group>"; };
+		D6D1A9211B60E220004115E1 /* libjpeg.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjpeg.8.dylib; path = ../../../../usr/local/Cellar/jpeg/8d/lib/libjpeg.8.dylib; sourceTree = "<group>"; };
+		D6D1A9251B632B82004115E1 /* HistogramOfImageClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HistogramOfImageClass.cpp; sourceTree = "<group>"; };
+		D6D1A9261B632B82004115E1 /* HistogramOfImageClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistogramOfImageClass.h; sourceTree = "<group>"; };
+		D6D1A9281B647E78004115E1 /* DBSCAN_Class.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DBSCAN_Class.cpp; sourceTree = "<group>"; };
+		D6D1A9291B647E78004115E1 /* DBSCAN_Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBSCAN_Class.h; sourceTree = "<group>"; };
+		D6D1A92B1B65BA30004115E1 /* LightParamEstimationClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LightParamEstimationClass.cpp; sourceTree = "<group>"; };
+		D6D1A92C1B65BA30004115E1 /* LightParamEstimationClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightParamEstimationClass.h; sourceTree = "<group>"; };
+		D6D1A92E1B672794004115E1 /* LightFallOffEstimationClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LightFallOffEstimationClass.cpp; sourceTree = "<group>"; };
+		D6D1A92F1B672794004115E1 /* LightFallOffEstimationClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightFallOffEstimationClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +53,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D1A9221B60E220004115E1 /* libjpeg.8.dylib in Frameworks */,
+				D6D1A9231B60E220004115E1 /* libjpeg.a in Frameworks */,
+				D6D1A9241B60E220004115E1 /* libjpeg.8.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +65,9 @@
 		D66497FE1B5F41CE0029BEAD = {
 			isa = PBXGroup;
 			children = (
+				D6D1A91F1B60E220004115E1 /* libjpeg.8.dylib */,
+				D6D1A9201B60E220004115E1 /* libjpeg.a */,
+				D6D1A9211B60E220004115E1 /* libjpeg.8.dylib */,
 				D66498091B5F41CE0029BEAD /* LightParamterEstimation */,
 				D66498081B5F41CE0029BEAD /* Products */,
 			);
@@ -58,6 +85,16 @@
 			isa = PBXGroup;
 			children = (
 				D664980A1B5F41CE0029BEAD /* main.cpp */,
+				D66498111B5F41EF0029BEAD /* ImageFileClass.cpp */,
+				D66498121B5F41EF0029BEAD /* ImageFileClass.h */,
+				D6D1A9251B632B82004115E1 /* HistogramOfImageClass.cpp */,
+				D6D1A9261B632B82004115E1 /* HistogramOfImageClass.h */,
+				D6D1A9281B647E78004115E1 /* DBSCAN_Class.cpp */,
+				D6D1A9291B647E78004115E1 /* DBSCAN_Class.h */,
+				D6D1A92B1B65BA30004115E1 /* LightParamEstimationClass.cpp */,
+				D6D1A92C1B65BA30004115E1 /* LightParamEstimationClass.h */,
+				D6D1A92E1B672794004115E1 /* LightFallOffEstimationClass.cpp */,
+				D6D1A92F1B672794004115E1 /* LightFallOffEstimationClass.h */,
 			);
 			path = LightParamterEstimation;
 			sourceTree = "<group>";
@@ -118,7 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D1A92D1B65BA30004115E1 /* LightParamEstimationClass.cpp in Sources */,
+				D6D1A9271B632B82004115E1 /* HistogramOfImageClass.cpp in Sources */,
 				D664980B1B5F41CE0029BEAD /* main.cpp in Sources */,
+				D6D1A92A1B647E78004115E1 /* DBSCAN_Class.cpp in Sources */,
+				D66498131B5F41EF0029BEAD /* ImageFileClass.cpp in Sources */,
+				D6D1A9301B672794004115E1 /* LightFallOffEstimationClass.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +247,28 @@
 		D664980F1B5F41CE0029BEAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/Cellar/jpeg/8d/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -212,6 +276,28 @@
 		D66498101B5F41CE0029BEAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/Cellar/jpeg/8d/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -235,6 +321,7 @@
 				D66498101B5F41CE0029BEAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

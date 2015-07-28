@@ -7,9 +7,16 @@
 //
 
 #include <iostream>
+#include <numeric>
+#include "LightParamEstimationClass.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    std::string inputFileName = "/Users/prathebaselvaraju/4-Projects/LightParamterEstimation/output.png";
+    LightParamEstimationClass* lightParamEstimationClass = LightParamEstimationClass::GetInstance();
+    
+    lightParamEstimationClass->GetAlphaOfLight(inputFileName);    
+    lightParamEstimationClass->Release();
+    
     return 0;
 }
