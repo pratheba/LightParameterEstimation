@@ -674,11 +674,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LightParamterEstimation/LightFallOffEstimationClass.cpp"
-            timestampString = "459761911.9652"
+            timestampString = "459927314.750499"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
             landmarkName = "LightFallOffEstimationClass::GetLightFallOffPointsfromCorePoints(const cv::Mat&amp; inputImage_, const cv::Point2d&amp; corePoint_)"
             landmarkType = "5">
          </BreakpointContent>
@@ -690,11 +690,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LightParamterEstimation/LightFallOffEstimationClass.cpp"
-            timestampString = "459762945.699488"
+            timestampString = "459927576.199849"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
             landmarkName = "LightFallOffEstimationClass::GetLightFallOffPointsfromCorePoints(const cv::Mat&amp; inputImage_, const cv::Point2d&amp; corePoint_)"
             landmarkType = "5">
          </BreakpointContent>
@@ -706,11 +706,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LightParamterEstimation/LightFallOffEstimationClass.cpp"
-            timestampString = "459762945.699488"
+            timestampString = "459927314.750499"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "LightFallOffEstimationClass::GetLightFallOffPointsfromCorePoints(const cv::Mat&amp; inputImage_, const cv::Point2d&amp; corePoint_)"
             landmarkType = "5">
          </BreakpointContent>
@@ -722,11 +722,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LightParamterEstimation/LightFallOffEstimationClass.cpp"
-            timestampString = "459761911.9652"
+            timestampString = "459927314.750499"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "LightFallOffEstimationClass::GetLightFallOffPointsfromCorePoints(const cv::Mat&amp; inputImage_, const cv::Point2d&amp; corePoint_)"
             landmarkType = "5">
          </BreakpointContent>
@@ -738,11 +738,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LightParamterEstimation/LightFallOffEstimationClass.cpp"
-            timestampString = "459761911.9652"
+            timestampString = "459927314.750499"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "LightFallOffEstimationClass::GetLightFallOffPointsfromCorePoints(const cv::Mat&amp; inputImage_, const cv::Point2d&amp; corePoint_)"
             landmarkType = "5">
          </BreakpointContent>
@@ -754,27 +754,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LightParamterEstimation/LightFallOffEstimationClass.cpp"
-            timestampString = "459761911.9652"
+            timestampString = "459927314.750499"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
-            landmarkName = "LightFallOffEstimationClass::GetLightFallOffPointsfromCorePoints(const cv::Mat&amp; inputImage_, const cv::Point2d&amp; corePoint_)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LightParamterEstimation/LightFallOffEstimationClass.cpp"
-            timestampString = "459761911.9652"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
             landmarkName = "LightFallOffEstimationClass::GetLightFallOffPointsfromCorePoints(const cv::Mat&amp; inputImage_, const cv::Point2d&amp; corePoint_)"
             landmarkType = "5">
          </BreakpointContent>
@@ -818,11 +802,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LightParamterEstimation/LightFallOffEstimationClass.cpp"
-            timestampString = "459762945.699488"
+            timestampString = "459927576.199849"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "LightFallOffEstimationClass::GetLightFallOffPointsfromCorePoints(const cv::Mat&amp; inputImage_, const cv::Point2d&amp; corePoint_)"
             landmarkType = "5">
          </BreakpointContent>
@@ -834,11 +818,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LightParamterEstimation/LightFallOffEstimationClass.cpp"
-            timestampString = "459761911.9652"
+            timestampString = "459927314.750499"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "LightFallOffEstimationClass::GetLightFallOffPointsfromCorePoints(const cv::Mat&amp; inputImage_, const cv::Point2d&amp; corePoint_)"
             landmarkType = "5">
          </BreakpointContent>
@@ -850,11 +834,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LightParamterEstimation/LightFallOffEstimationClass.cpp"
-            timestampString = "459763067.176921"
+            timestampString = "460143850.358366"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
             landmarkName = "LightFallOffEstimationClass::GetLightFallOffPointsfromCorePoints(const cv::Mat&amp; inputImage_, const cv::Point2d&amp; corePoint_)"
             landmarkType = "5">
          </BreakpointContent>
@@ -866,11 +850,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LightParamterEstimation/LightFallOffEstimationClass.cpp"
-            timestampString = "459763067.176921"
+            timestampString = "459928225.881431"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
             landmarkName = "LightFallOffEstimationClass::GetLightFallOffPointsfromCorePoints(const cv::Mat&amp; inputImage_, const cv::Point2d&amp; corePoint_)"
             landmarkType = "5">
          </BreakpointContent>
@@ -882,11 +866,91 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LightParamterEstimation/LightFallOffEstimationClass.cpp"
-            timestampString = "459763250.700489"
+            timestampString = "460143850.358366"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "LightFallOffEstimationClass::GetLightFallOffPointsfromCorePoints(const cv::Mat&amp; inputImage_, const cv::Point2d&amp; corePoint_)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LightParamterEstimation/UtilityClass.cpp"
+            timestampString = "459927652.777478"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "UtilityClass::GetWindowAroundPoint(const cv::Point2d&amp; corePoint, const int&amp; windowSize_)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LightParamterEstimation/UtilityClass.cpp"
+            timestampString = "459927654.346473"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "UtilityClass::GetAveragePixelIntensityAroundaPoint(const cv::Point2d&amp; corePoint_, const int&amp; windowSize_, double&amp; pixelIntensity_)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LightParamterEstimation/UtilityClass.cpp"
+            timestampString = "459927655.473509"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "UtilityClass::GetAveragePixelIntensityAroundaPoint(const cv::Point2d&amp; corePoint_, const int&amp; windowSize_, double&amp; pixelIntensity_)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LightParamterEstimation/LightFallOffEstimationClass.cpp"
+            timestampString = "459927708.657158"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "LightFallOffEstimationClass::GetLightFallOffPointsfromCorePoints(const cv::Mat&amp; inputImage_, const cv::Point2d&amp; corePoint_)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LightParamterEstimation/LightFallOffEstimationClass.cpp"
+            timestampString = "460143850.358366"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
             landmarkName = "LightFallOffEstimationClass::GetLightFallOffPointsfromCorePoints(const cv::Mat&amp; inputImage_, const cv::Point2d&amp; corePoint_)"
             landmarkType = "5">
          </BreakpointContent>

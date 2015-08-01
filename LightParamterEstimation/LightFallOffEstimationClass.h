@@ -10,11 +10,7 @@
 #define __LightParamterEstimation__LightFallOffEstimationClass__
 
 #include <iostream>
-#include <opencv2/core/core.hpp>
-#include <opencv2/imgproc/imgproc.hpp>
-#include <opencv2/highgui/highgui.hpp>
-
-typedef std::vector<cv::Point2d> VecOf2dPoints;
+#include "UtilityClass.h"
 
 class LightFallOffEstimationClass {
 public:
@@ -29,6 +25,8 @@ private:
     cv::Point2d*    corePoint;
     int             imageWidth;
     int             imageHeight;
+    
+    UtilityClass* utilityClass;
     
     void Initialize(const cv::Mat& inputImage_, const cv::Point2d& corePoint_);
 };

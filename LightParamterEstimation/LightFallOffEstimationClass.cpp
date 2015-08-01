@@ -9,8 +9,8 @@
 #include "LightFallOffEstimationClass.h"
 #define BLOCKSIZE 5
 
-LightFallOffEstimationClass::LightFallOffEstimationClass():fallOffPoints(VecOf2dPoints()),corePoint(nullptr), inputImage(nullptr),
-                    imageWidth(0), imageHeight(0){
+LightFallOffEstimationClass::LightFallOffEstimationClass():fallOffPoints(VecOf2dPoints()), inputImage(nullptr), corePoint(nullptr),
+                    imageWidth(0), imageHeight(0), utilityClass(nullptr){
     
 }
 
@@ -20,9 +20,14 @@ LightFallOffEstimationClass::~LightFallOffEstimationClass() {
         corePoint = nullptr;
     }
     
-    if (inputImage == nullptr) {
+    if (inputImage != nullptr) {
         delete inputImage;
         inputImage = nullptr;
+    }
+    
+    if (utilityClass != nullptr) {
+        delete utilityClass;
+        utilityClass = nullptr;
     }
     
     fallOffPoints.clear();
@@ -40,6 +45,10 @@ void LightFallOffEstimationClass::Initialize(const cv::Mat& inputImage_, const c
         inputImage = new cv::Mat();
     }
     
+    if (utilityClass == nullptr) {
+        utilityClass = new UtilityClass(inputImage_);
+    }
+    
     *corePoint  =   corePoint_;
     *inputImage =   inputImage_;
     if (inputImage->channels() > 1) {
@@ -49,6 +58,7 @@ void LightFallOffEstimationClass::Initialize(const cv::Mat& inputImage_, const c
     imageWidth  =   inputImage_.cols;
     imageHeight =   inputImage_.rows;
 }
+
 
 void LightFallOffEstimationClass::GetLightFallOffPointsfromCorePoints(const cv::Mat& inputImage_, const cv::Point2d& corePoint_) {
     
@@ -65,6 +75,8 @@ void LightFallOffEstimationClass::GetLightFallOffPointsfromCorePoints(const cv::
     int block = 1;
     double currBlockIntensity = 0;
     double prevBlockIntensity = 0;
+    double currPixelWindowIntensity = 0;
+    
     
     // Loop through 0 to 360
     for (int degree = 0; degree < 360; ++degree) {
@@ -82,23 +94,33 @@ void LightFallOffEstimationClass::GetLightFallOffPointsfromCorePoints(const cv::
                 if ((currPoint.x < 0) || (currPoint.x > imageWidth) || (currPoint.y < 0) || (currPoint.y > imageHeight)) {
                     break;
                 }
-                
-                currBlockIntensity += inputImage->at<uchar>(currPoint.y,currPoint.x);
+                currPixelWindowIntensity = 0;
+                utilityClass->GetAveragePixelIntensityAroundaPoint(currPoint, 3, currPixelWindowIntensity);
+                currBlockIntensity += currPixelWindowIntensity;
+                //currBlockIntensity += inputImage->at<uchar>(currPoint.y,currPoint.x);
             }
             currBlockIntensity /= BLOCKSIZE;
             
             double intensityDifference = prevBlockIntensity - currBlockIntensity;
             std::cout << "intensity difference  = " << intensityDifference << std::endl;
             //if ((intensityDifference > 2 && intensityDifference < 5) && (block != 1)) {
-            if ((intensityDifference >= 40) && (block != 1)) {
+            if ((intensityDifference >= 5 && intensityDifference <= 8) && (block != 1)) {
                 if ((currPoint.x >= 0) && (currPoint.x < imageWidth) && (currPoint.y >= 0) && (currPoint.y < imageHeight)) {
-                    cv::circle(refImage, currPoint, 4, cv::Scalar(0,0,255), -1);
+                    cv::circle(refImage, currPoint, 2, cv::Scalar(0,0,255), -1);
                 }
             }
+            
+            if ((intensityDifference >= 10 && intensityDifference <= 15) && (block != 1)) {
+                if ((currPoint.x >= 0) && (currPoint.x < imageWidth) && (currPoint.y >= 0) && (currPoint.y < imageHeight)) {
+                    cv::circle(refImage, currPoint, 2, cv::Scalar(0,255,255), -1);
+                }
+            }
+            
             block += BLOCKSIZE;
         }
     }
     
+    cv::imwrite("/Users/prathebaselvaraju/4-Projects/LightParamterEstimation/input-output/output-light-final-1.png", refImage);
     cv::imshow("falloffregion", refImage);
     cv::waitKey();
     

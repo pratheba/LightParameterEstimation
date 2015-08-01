@@ -12,7 +12,7 @@
 
 int main(int argc, const char * argv[]) {
     
-    std::string inputFileName = "/Users/prathebaselvaraju/4-Projects/LightParamterEstimation/output.png";
+    std::string inputFileName = "/Users/prathebaselvaraju/4-Projects/LightParamterEstimation/light-final-1.png";
     LightParamEstimationClass* lightParamEstimationClass = LightParamEstimationClass::GetInstance();
     
     lightParamEstimationClass->GetAlphaOfLight(inputFileName);    

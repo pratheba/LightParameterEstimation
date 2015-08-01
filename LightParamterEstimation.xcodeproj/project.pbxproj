@@ -16,6 +16,8 @@
 		D6D1A92A1B647E78004115E1 /* DBSCAN_Class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6D1A9281B647E78004115E1 /* DBSCAN_Class.cpp */; };
 		D6D1A92D1B65BA30004115E1 /* LightParamEstimationClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6D1A92B1B65BA30004115E1 /* LightParamEstimationClass.cpp */; };
 		D6D1A9301B672794004115E1 /* LightFallOffEstimationClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6D1A92E1B672794004115E1 /* LightFallOffEstimationClass.cpp */; };
+		D6D1A9331B69EEC7004115E1 /* UtilityClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6D1A9321B69EEC7004115E1 /* UtilityClass.cpp */; };
+		D6D77BB91B6D4EF600B76538 /* ReprojectionClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6D77BB71B6D4EF600B76538 /* ReprojectionClass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +48,10 @@
 		D6D1A92C1B65BA30004115E1 /* LightParamEstimationClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightParamEstimationClass.h; sourceTree = "<group>"; };
 		D6D1A92E1B672794004115E1 /* LightFallOffEstimationClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LightFallOffEstimationClass.cpp; sourceTree = "<group>"; };
 		D6D1A92F1B672794004115E1 /* LightFallOffEstimationClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightFallOffEstimationClass.h; sourceTree = "<group>"; };
+		D6D1A9311B67E998004115E1 /* UtilityClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilityClass.h; sourceTree = "<group>"; };
+		D6D1A9321B69EEC7004115E1 /* UtilityClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UtilityClass.cpp; sourceTree = "<group>"; };
+		D6D77BB71B6D4EF600B76538 /* ReprojectionClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReprojectionClass.cpp; sourceTree = "<group>"; };
+		D6D77BB81B6D4EF600B76538 /* ReprojectionClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReprojectionClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,10 @@
 				D6D1A92C1B65BA30004115E1 /* LightParamEstimationClass.h */,
 				D6D1A92E1B672794004115E1 /* LightFallOffEstimationClass.cpp */,
 				D6D1A92F1B672794004115E1 /* LightFallOffEstimationClass.h */,
+				D6D1A9311B67E998004115E1 /* UtilityClass.h */,
+				D6D1A9321B69EEC7004115E1 /* UtilityClass.cpp */,
+				D6D77BB71B6D4EF600B76538 /* ReprojectionClass.cpp */,
+				D6D77BB81B6D4EF600B76538 /* ReprojectionClass.h */,
 			);
 			path = LightParamterEstimation;
 			sourceTree = "<group>";
@@ -155,10 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D77BB91B6D4EF600B76538 /* ReprojectionClass.cpp in Sources */,
 				D6D1A92D1B65BA30004115E1 /* LightParamEstimationClass.cpp in Sources */,
 				D6D1A9271B632B82004115E1 /* HistogramOfImageClass.cpp in Sources */,
 				D664980B1B5F41CE0029BEAD /* main.cpp in Sources */,
 				D6D1A92A1B647E78004115E1 /* DBSCAN_Class.cpp in Sources */,
+				D6D1A9331B69EEC7004115E1 /* UtilityClass.cpp in Sources */,
 				D66498131B5F41EF0029BEAD /* ImageFileClass.cpp in Sources */,
 				D6D1A9301B672794004115E1 /* LightFallOffEstimationClass.cpp in Sources */,
 			);

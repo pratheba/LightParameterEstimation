@@ -14,4 +14,5 @@ dependencies: \
   /usr/local/include/opencv2/highgui/highgui.hpp \
   /usr/local/include/opencv2/highgui/highgui_c.h \
   /Users/prathebaselvaraju/4-Projects/LightParamterEstimation/LightParamterEstimation/DBSCAN_Class.h \
-  /Users/prathebaselvaraju/4-Projects/LightParamterEstimation/LightParamterEstimation/LightFallOffEstimationClass.h
+  /Users/prathebaselvaraju/4-Projects/LightParamterEstimation/LightParamterEstimation/LightFallOffEstimationClass.h \
+  /Users/prathebaselvaraju/4-Projects/LightParamterEstimation/LightParamterEstimation/UtilityClass.h
