@@ -8,6 +8,15 @@
 
 #include <iostream>
 #include <numeric>
+//#include <vtkPolyData.h>
+//#include <vtkPLYReader.h>
+//#include <vtkSmartPointer.h>
+//#include <vtkPolyDataMapper.h>
+//#include <vtkActor.h>
+//#include <vtkRenderWindow.h>
+//#include <vtkRenderer.h>
+//#include <vtkRenderWindowInteractor.h>
+
 #include "LightParamEstimationClass.h"
 
 int main(int argc, const char * argv[]) {

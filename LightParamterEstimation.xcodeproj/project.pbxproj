@@ -18,6 +18,7 @@
 		D6D1A9301B672794004115E1 /* LightFallOffEstimationClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6D1A92E1B672794004115E1 /* LightFallOffEstimationClass.cpp */; };
 		D6D1A9331B69EEC7004115E1 /* UtilityClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6D1A9321B69EEC7004115E1 /* UtilityClass.cpp */; };
 		D6D77BB91B6D4EF600B76538 /* ReprojectionClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6D77BB71B6D4EF600B76538 /* ReprojectionClass.cpp */; };
+		D6D77BBC1B6D5A9500B76538 /* CameraClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6D77BBA1B6D5A9500B76538 /* CameraClass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +53,8 @@
 		D6D1A9321B69EEC7004115E1 /* UtilityClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UtilityClass.cpp; sourceTree = "<group>"; };
 		D6D77BB71B6D4EF600B76538 /* ReprojectionClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReprojectionClass.cpp; sourceTree = "<group>"; };
 		D6D77BB81B6D4EF600B76538 /* ReprojectionClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReprojectionClass.h; sourceTree = "<group>"; };
+		D6D77BBA1B6D5A9500B76538 /* CameraClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CameraClass.cpp; sourceTree = "<group>"; };
+		D6D77BBB1B6D5A9500B76538 /* CameraClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D6D1A9321B69EEC7004115E1 /* UtilityClass.cpp */,
 				D6D77BB71B6D4EF600B76538 /* ReprojectionClass.cpp */,
 				D6D77BB81B6D4EF600B76538 /* ReprojectionClass.h */,
+				D6D77BBA1B6D5A9500B76538 /* CameraClass.cpp */,
+				D6D77BBB1B6D5A9500B76538 /* CameraClass.h */,
 			);
 			path = LightParamterEstimation;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 				D6D77BB91B6D4EF600B76538 /* ReprojectionClass.cpp in Sources */,
 				D6D1A92D1B65BA30004115E1 /* LightParamEstimationClass.cpp in Sources */,
 				D6D1A9271B632B82004115E1 /* HistogramOfImageClass.cpp in Sources */,
+				D6D77BBC1B6D5A9500B76538 /* CameraClass.cpp in Sources */,
 				D664980B1B5F41CE0029BEAD /* main.cpp in Sources */,
 				D6D1A92A1B647E78004115E1 /* DBSCAN_Class.cpp in Sources */,
 				D6D1A9331B69EEC7004115E1 /* UtilityClass.cpp in Sources */,
@@ -262,10 +268,10 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/usr/local/Cellar/jpeg/8d/include,
+					"/usr/local/include/vtk-6.2",
 					/usr/local/include,
 				);
-				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				OTHER_LDFLAGS = (
 					"-lopencv_calib3d",
 					"-lopencv_core",
@@ -280,6 +286,11 @@
 					"-lopencv_superres",
 					"-lopencv_ts",
 					"-lopencv_video",
+					"-lvtkIOCore-6.2.1",
+					"-lvtkCommonExecutionModel-6.2",
+					"-lvtkRenderingCore-6.2",
+					"-lvtkIOPLY-6.2",
+					"-lvtkCommonCore-6.2",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -291,10 +302,10 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/usr/local/Cellar/jpeg/8d/include,
+					"/usr/local/include/vtk-6.2",
 					/usr/local/include,
 				);
-				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				OTHER_LDFLAGS = (
 					"-lopencv_calib3d",
 					"-lopencv_core",
@@ -309,6 +320,11 @@
 					"-lopencv_superres",
 					"-lopencv_ts",
 					"-lopencv_video",
+					"-lvtkIOCore-6.2.1",
+					"-lvtkCommonExecutionModel-6.2",
+					"-lvtkRenderingCore-6.2",
+					"-lvtkIOPLY-6.2",
+					"-lvtkCommonCore-6.2",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
